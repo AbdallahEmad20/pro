@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 20px;
+    color: crimson !important;
+}
+
+.collapse .navbar-nav .nav-link{
+font-size: 17px;
+color: #000;
+}
+
+.collapse .navbar-nav .nav-link:hover{
+
+    color: crimson;
+}
+
+.jumbotron .form-inline .btn{
+    border: 1px solid crimson ;
+    color: crimson;
+}
+
+.jumbotron .form-inline .btn:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+ 
+.jumbotron .form-inline  input[type="search"] {
+border: 1px solid crimson;
+}
+
+
+.navbar-light {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: aqua !important;
+}
+
+
+
+
+
+
+

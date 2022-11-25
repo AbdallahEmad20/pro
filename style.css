@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color: rgb(229 17 17 / 90%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bg-dark {
+    background-color: darkmagenta !important ;
+}
+
+.bg-dark:hover{
+    background-color: red !important;
+}
+
+.bg-dark:hover  .navbar-brand{
+    color: #fff ;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+transform: translate(10px , 10px);
+transition: all 0.4s ;
+}
+
+.navbar .navbar-nav .nav-item .dis-link{
+    color: aqua !important;
+}
+
+
+/*  */
+
+
+
+ .row .card-content{
+    margin-top: 40px;
+  
+ }
+
+
+
+
+
+
+.team{
+    padding: 50px 20px;
+}
+.team .team-container{
+    padding: 50px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.team .team-content{
+
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.team .team-content img{
+width: 100px;
+border-radius: 50%;
+}
+
+.team .team-content .team-info{
+margin-top: 20px;
+}
+
+.team .team-content p{
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.team .team-content .team-info h1{
+font-size: 20px;
+
+}
+.team .team-content .team-info p{
+    margin-top: 2px;
+    font-size: 15px;
+opacity: 0.7;
+
+}
+
+.team .line{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+width: 40px;
+    height: 4px;
+    margin-bottom: 40px;
+    background-color: blueviolet;
+}
+
+.team h1{
+text-align: center;
+margin-top: 20px;
+}
